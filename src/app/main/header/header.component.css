@@ -1,31 +1,58 @@
 .nav{
   box-sizing: border-box;
-  border: solid black 5px;
+  /* border: solid black 5px; */
   background-color: rgb(47, 53, 51);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: auto;
 }
 
 .logo{
-  box-sizing: border-box;
-  border: solid black 2px;
+  font-size: xx-large;
+  padding: .5%;
+  background-color: azure;
 }
 
 .links{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  justify-items: self-end;
+  /* justify-content: space-around; */
+  justify-content: right;
+  
 }
 
 .active{
   box-sizing: border-box;
-  border: solid black 5px;
-  font-size: large;
+  
+  border: solid #4f4a4a 5px;
+  border-radius: 10%;
+  font-weight: 400;
+  font-size: calc(15px + 0.390625vw);
   background-color: aliceblue;
-  padding: 1%;
+  padding: 2%;
+  text-decoration: none;
+}
+
+a:link {
+  color: rgba(174, 210, 174, 0.114);
+  color: black;
+}
+
+a:visited {
+  color: rgb(76, 81, 76);
+  background-color: rgb(195, 249, 249);
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  background-color: rgb(165, 244, 165);
+}
+
+/* selected link */
+a:active {
+  color: solid black;
+  background-color: green;
 }
 
 
