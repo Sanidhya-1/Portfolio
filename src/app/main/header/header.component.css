@@ -47,6 +47,7 @@ a:visited {
 a:hover {
   color: black;
   background-color: rgb(165, 244, 165);
+  font-size:150%
 }
 
 /* selected link */
