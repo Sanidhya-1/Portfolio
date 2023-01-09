@@ -1,22 +1,97 @@
-.nav{
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  /* border: solid black 5px; */
+  font-family: 'Poppins',sans-serif;
+}
+
+.nav{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  z-index: 10;
+  background: #001f3f;
+}
+
+.logo{
+  position: relative;
+  font-size: 1.8em;
+  color: #fff;
+  text-decoration: none;
+  font-family: Kalam;
+  font-weight: 580;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.nav .links li{
+  box-sizing: border-box;
+  border: solid white 1px;
+  padding: 3px;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.nav .links li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav .links li a :hover{
+  color: #E67E22;
+}
+
+@media (max-width:991px) {
+  .nav{
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .nav{
+  box-sizing: border-box;
   background-color: rgb(47, 53, 51);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex: 1 0 auto;
 }
 
 .logo{
   font-size: xx-large;
   padding: .5%;
   background-color: azure;
-}
-
+} */
+/* 
 .links{
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
   justify-content: right;
   
 }
@@ -43,17 +118,15 @@ a:visited {
   background-color: rgb(195, 249, 249);
 }
 
-/* mouse over link */
 a:hover {
   color: black;
   background-color: rgb(165, 244, 165);
   font-size:150%
 }
 
-/* selected link */
 a:active {
   color: solid black;
   background-color: green;
 }
 
-
+ */
