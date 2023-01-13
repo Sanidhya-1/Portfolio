@@ -9,7 +9,13 @@ export class SkillsService {
   
   getAll():string[]{
      return [
-      '/assets/IMG_20180205_151409.jpg'
+      '/assets/Dsa.jpeg',
+      '/assets/java.jpg',
+      '/assets/spring_boot.png',
+      '/assets/mysql.jpeg',
+      '/assets/angular.png',
+      '/assets/junit+mockito.png',
+      '/assets/git.jpeg'
      ]
   }
 

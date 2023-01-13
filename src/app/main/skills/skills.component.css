@@ -1,0 +1,38 @@
+*{
+    background-color: #1C315E;
+    margin: 1px;
+    border: ;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    
+    padding: 0;
+}
+
+/* span{
+    /* height: 30px; */
+ */
+
+li{
+    height: 20rem;
+    width: 20rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+/* 
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  } */
+ /* li{
+    box-sizing: border-box;
+    border: solid black 5px;
+    width: 10%;
+ } */
