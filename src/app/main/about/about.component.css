@@ -1,0 +1,24 @@
+*{
+    background-color: burlywood;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 200vh;
+}
+
+.Graduation{
+    margin-top: 2px;
+    
+}
+
+.Secondary{
+    margin-top: 15px;
+}
+
+.tenth {
+    margin-top: 10px;
+}
